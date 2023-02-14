@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!--will make device responsive...-->
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqi Hasan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab:wght@100;300;500;700&family=Rubik+Mono+One&family=Trispace:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <!--
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#about_id">About me</a></li>
+                    <li><a href="#project_id">Projects</a></li>
+                    <li><a href="#contact_id">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        -->
+
+        <div class="text-box">
+            <h1>HELLO;</h1>
+            <p>I'M TAQI HASAN. SECOND YEAR COMPUTER SCIENCE STUDENT</p>
+        </div>
+
+    </section>
+
+    <!--about me-->
+    <section id="about_id" class="about">
+        <h1>About Me</h1>
+
+        <div class="row">
+            <div class="about-col">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--projects-->
+    <section id="project_id" class="project">
+        <h1>Projects</h1>
+
+        <div class="row">
+            <div class="project-col">
+                <img src="Images/1.jpg">
+                <div class="layer">
+                    <h3>PORTFOLIO WEBSITE</h3>
+                </div>
+            </div>
+            <div class="project-col">
+                <img src="Images/2.jpg">
+                <div class="layer">
+                    <h3>PROJECT 2 WIP</h3>
+                </div>
+            </div>
+            <div class="project-col">
+                <img src="Images/3.jpg">
+                <div class="layer">
+                    <h3>PROJECT 3 WIP</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--JavaScript for toggle menu-->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+
+</body>
+</html>
