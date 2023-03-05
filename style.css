@@ -107,7 +107,6 @@ nav .fa{
 }
 
 /*about me*/
-
 .about{
     width:100%;
     margin: auto;
@@ -128,7 +127,6 @@ p{
     padding: 10px;
     color: white;
 }
-
 .row{
     margin-top: 2%;
     display:flex;
@@ -164,7 +162,6 @@ p{
 }
 
 /* Projects*/
-
 .project{
     background-color: rgb(35, 35, 37);
     width: 100%;
@@ -198,7 +195,12 @@ p{
     background: rgba(6, 129, 230, 0.7);
     opacity: 1;
 }
-.layer h3{
+.layer li{
+    
+    list-style: none;
+
+}
+.layer a{
     width:100%;
     font-weight: 500;
     color: white;
@@ -209,7 +211,7 @@ p{
     position:absolute;
     transition: 0.5s;
 }
-.layer:hover h3{
+.layer:hover a{
     bottom:49%;
     opacity:1;
 }
@@ -226,7 +228,6 @@ p{
     align-items: center;
    }
 }
-
 
 /* Contact*/
 .contact{
